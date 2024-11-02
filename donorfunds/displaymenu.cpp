@@ -19,7 +19,6 @@
 #include <unordered_map>
 #include <set>
 
-
 using namespace std;
 
 void displayMainMenu() {
@@ -62,7 +61,6 @@ void displayAccountTaskMenu() {
     cout << "6. Exit" << endl;
     cout << "Enter your choice: ";
 }
-
 
 void displayReportMenu() {
     cout << "Report Menu" << endl;
@@ -163,7 +161,6 @@ void addEmployeeHours(Employee* employee) {
     cout << "Hours added successfully for " << employee->getName() << "\n" << endl;
 }
 
-
 void subtractEmployeeHours(Employee* employee) {
     if (!employee) {
         cout << "Employee not found!" << endl;
@@ -263,7 +260,6 @@ void deleteAccountMenu(LinkedListAccounts* accounts) {
     cout << "Account has been deleted." << endl;
 }
 
-
 void addAccountFunds(LinkedListAccounts* accounts) {
     string identifier;
     double amount;
@@ -303,7 +299,6 @@ void showAccountBalance(LinkedListAccounts* accounts) {
     }
 }
 
-
 void manageAccounts(LinkedListAccounts* accounts) {
     int accountChoice;
     while (true) {
@@ -336,7 +331,6 @@ void manageAccounts(LinkedListAccounts* accounts) {
         }
     }
 }
-
 
 void createReport() {
     int reportChoice;

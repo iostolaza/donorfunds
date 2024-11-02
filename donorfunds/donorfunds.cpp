@@ -10,7 +10,6 @@
 #include "uniqueId.hpp"
 #include "displaymenu.hpp"
 
-
 #include <iostream>
 #include <ctime>
 #include <string>
@@ -21,7 +20,6 @@
 using namespace std;
 
 // Section 1 implementation - Accounts
-
 AccountNode::AccountNode(const string& name, const string& accountNumber, double balance)
     : name(name), accountNumber(accountNumber), balance(balance), next(nullptr) {}
 
@@ -157,7 +155,6 @@ AccountNode* LinkedListAccounts::getHead() const {
 }
 
 // Section 2 implementation - Client and Timesheet
-
 ClientWork::ClientWork(const string& clientName, double hoursWorked, double hourlyRate)
     : clientName(clientName), hoursWorked(hoursWorked), hourlyRate(hourlyRate) {}
 
@@ -267,7 +264,6 @@ double Employee::getTotalPay() const {
 
 
 //EmployeeManager Class
-
 void EmployeeManager::createEmployee(const string& name, const string& securePin, double hourlyRate) {
     employees.emplace(name, Employee(name, securePin, hourlyRate));
 }
@@ -298,10 +294,3 @@ void AccountLinkedList::deductFundsForTimesheet(EmployeeManager& manager) {
         }
     }
 } 
-
-
-
-
-
-
-

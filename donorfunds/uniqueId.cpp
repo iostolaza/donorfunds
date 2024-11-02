@@ -1,7 +1,6 @@
 
 #include "uniqueId.hpp"
 
-
 uniqueID::uniqueID() : gen(rd()), dis(0, 15) {}
 
 string uniqueID::generateRandomID() {

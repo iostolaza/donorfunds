@@ -1,7 +1,6 @@
 #ifndef UNIQUEID_HPP
 #define UNIQUEID_HPP
 
-
 #include <string>
 #include <unordered_set>
 #include <random>

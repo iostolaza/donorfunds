@@ -8,7 +8,6 @@
 
 #include "displaymenu.hpp"
 #include "donorfunds.hpp"
-
 #include <iostream>
 
 using namespace std;
@@ -36,8 +35,5 @@ int main() {
         }
     }
     
-
     return 0;
 }
-
-

@@ -25,7 +25,6 @@
 using namespace std;
 
 //Account Section
-
 struct AccountNode {
     string name;
     string accountNumber;
@@ -64,7 +63,6 @@ private:
 };
 
 //Timesheet section
-
 class ClientWork {
 public:
     ClientWork(const  string& clientName, double hoursWorked, double hourlyRate);
@@ -136,8 +134,3 @@ public:
 
 
 #endif // DONORFUNDS_HPP
-
-
-
-
-

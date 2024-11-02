@@ -9,7 +9,6 @@
 #define displaymenu_hpp
 
 #include "donorfunds.hpp"
-  
 #include <iostream>
 #include <string>
 
@@ -44,6 +43,4 @@ void showAccountBalance(LinkedListAccounts* accounts);
 // Report functions
 void createReport();
 
-
 #endif /* displaymenu_hpp */
-
